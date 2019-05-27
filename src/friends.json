@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "Mario",
+    "image": "./images/mario.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "name": "tinker",
+    "image": "./images/tinker.jpg",
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "name": "peter",
+    "image": "./images/peter.png",
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "name": "thoot",
+    "image": "./images/thoot.jpg",
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "name": "minnie",
+    "image": "./images/minnie.jpg",
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "name": "minion",
+    "image": "./images/minion.jpeg",
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "name": "micky",
+    "image": "./images/micky.jpg",
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "name": "cat",
+    "image": "./images/cat.jpg",
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "name": "turtle",
+    "image": "./images/turtle.png",
+    "clicked": false
+  }]
