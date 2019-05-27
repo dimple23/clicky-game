@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,KACE,YAAa,CACb,WAEA,CACA,WACE,4BAAqB,CAArB,oBAAqB,CACrB,kBACF,CARF,KACE,mEACF,CACA,KACA,SAEA","file":"main.b4dd26a3.chunk.css","sourcesContent":["body{\n  background-image: url(../src/clicky.jpg)\n}\n.img{\nsize: 20px;\n\n}"]}
