@@ -1,3 +1,7 @@
 body{
   background-image: url(../src/clicky.jpg)
 }
+.nav{
+  color: blue;
+  font-size: 28px;
+}

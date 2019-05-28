@@ -67,9 +67,9 @@ class ClickyGame extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-dark bg-warning d-flex justify-space-between">
-          <span className="navbar-brand mb-0">Clicky Game</span>
-          <span className="scoreInfo text-light">
+        <nav className="navbar navbar-dark bg-warning d-flex justify-space-between nav" >
+          <span className="navbar-brand mb-0 nav">Clicky Game</span>
+          <span className="scoreInfo nav ">
           {this.state.feedback}  || 
             Current Score: {this.state.currentScore} || Highest Score: {this.state.highestScore} || 
           </span>
