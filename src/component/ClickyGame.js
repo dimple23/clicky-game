@@ -34,10 +34,10 @@ class ClickyGame extends Component {
     
     const shuffledCards = friendData.sort(() => 0.5 - Math.random());
     const currentScore = this.state.currentScore + 1;
-     let highestScoreScore = this.state.highestScoreScore;
+     let highestScore = this.state.highestScore;
 
-    if (currentScore > highestScoreScore) {
-      highestScoreScore = currentScore;
+    if (currentScore > highestScore) {
+      highestScore = currentScore;
     }
 
     this.setState({
@@ -45,7 +45,7 @@ class ClickyGame extends Component {
       currentScore: currentScore,
       feedback: "Congrats! You Have Guessed All Of The Images Correctly!",
 
-      highestScoreScore: highestScoreScore
+      highestScore: highestScore
     });
   };
 
@@ -68,14 +68,14 @@ class ClickyGame extends Component {
     return (
       <React.Fragment>
         <nav className="navbar navbar-dark bg-warning d-flex justify-space-between nav" >
-          <span className="navbar-brand mb-0 nav">Clicky Game</span>
-          <span className="scoreInfo nav ">
+          <span className="navbar-brand mb-0 nav">🅲🅻🅸🅲🅺🆈 🅶🅰🅼🅴</span>
+          <span className="score nav ">
           {this.state.feedback}  || 
             Current Score: {this.state.currentScore} || Highest Score: {this.state.highestScore} || 
           </span>
         </nav>
         <div className=" text-light text-center">
-          <h1>Welcome to the clicky game!</h1>
+          <h1>Welcome to the Memory clicky game!</h1>
           <p>Click on a card to get started. Don't click on the same card twice.</p>
         </div>
         <div className="container-fluid">
